@@ -32,7 +32,7 @@ RUN conda install --quiet --yes \
     'r-rcurl=1.98*' \
     'r-rmarkdown=2.1*' \
     'r-units=0.6*' \
-    'r-gdal=1.4*' \
+    'r-rgdal=1.5*' \
     'r-sf=0.9*' \
     && \
     conda clean --all -f -y && \
